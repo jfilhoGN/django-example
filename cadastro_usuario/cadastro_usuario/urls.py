@@ -17,8 +17,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from app_cadastro_usuarios import views
+from cadastro_times import views as times_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('view/', views.index)
+    path('view/', views.index),
+    path('times/', times_views.index_times)
 ]

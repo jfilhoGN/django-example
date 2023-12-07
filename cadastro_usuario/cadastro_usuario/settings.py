@@ -32,6 +32,8 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'app_cadastro_usuarios',
+    'cadastro_times',
+    'app_cadastro_pdi',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
